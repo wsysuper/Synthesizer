@@ -1,5 +1,5 @@
 # A PROGRAM SYNTHESIZER BASED ON NUMERICAL INPUT-OUTPUT EXAMPLES
-Since the birth of the first electronic computer, computer programs have helped us
+    Since the birth of the first electronic computer, computer programs have helped us
 accomplished all kinds of hard and difficult tasks, leaving us only convenience. Nevertheless, the
 coding work always puzzles many programmers. We hope that computers could help us generate
 programs automatically, setting us free from the boring coding work. Program synthesis may help
