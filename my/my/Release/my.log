@@ -1,0 +1,18 @@
+﻿Build started 2013/11/23 18:16:06.
+     1>Project "G:\毕设\my\my\my.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\my.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         my.vcxproj -> G:\毕设\my\Release\my.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\my.unsuccessfulbuild".
+         Touching "Release\my.lastbuildstate".
+     1>Done Building Project "G:\毕设\my\my\my.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18

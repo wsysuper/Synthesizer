@@ -1,0 +1,334 @@
+-- Confidence Degree: 3 --
+
+The define of odd(n):
+odd(n) = 12 + 22n
+
+odd(0) = 12
+odd(1) = 34
+odd(2) = 56
+odd(3) = 78
+odd(4) = 100
+odd(5) = 122
+odd(6) = 144
+odd(7) = 166
+odd(8) = 188
+odd(9) = 210
+odd(10) = 232
+odd(11) = 254
+
+===============================================================================
+
+-- Confidence Degree: 4 --
+
+The define of quadratics(n):
+quadratics(n) = 2 + 2n + n^2
+
+quadratics(0) = 2
+quadratics(1) = 5
+quadratics(2) = 10
+quadratics(3) = 17
+quadratics(4) = 26
+quadratics(5) = 37
+quadratics(6) = 50
+quadratics(7) = 65
+quadratics(8) = 82
+quadratics(9) = 101
+quadratics(10) = 122
+quadratics(11) = 145
+quadratics(12) = 170
+quadratics(13) = 197
+quadratics(14) = 226
+
+===============================================================================
+
+-- Confidence Degree: 2 --
+
+The define of mixed(n):
+mixed(n) = -29 + 62.7n + (-46.7944)n^2 + 17n^3 + (-3.19444)n^4 + 0.3n^5 + (-0.0111111)n^6
+
+mixed(1) = 1
+mixed(2) = 3
+mixed(3) = 3
+mixed(4) = 5
+mixed(5) = 7
+mixed(6) = 9
+mixed(7) = 13
+mixed(8) = 15
+mixed(9) = -11
+mixed(10) = -137
+mixed(11) = -513
+mixed(12) = -1407
+mixed(13) = -3253
+mixed(14) = -6707
+mixed(15) = -12711
+mixed(16) = -22565
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of secondary(n):
+secondary(n) = 4 + (-1.5)n + 1.91667n^2 + (-0.5)n^3 + 0.0833333n^4
+
+secondary(1) = 4
+secondary(2) = 6
+secondary(3) = 10
+secondary(4) = 18
+secondary(5) = 34
+secondary(6) = 64
+secondary(7) = 116
+secondary(8) = 200
+secondary(9) = 328
+secondary(10) = 514
+secondary(11) = 774
+secondary(12) = 1126
+secondary(13) = 1590
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of ambiguous(n):
+ambiguous(n) = 40 + (-70.3333)n + 52.1667n^2 + (-15.6667)n^3 + 1.83333n^4
+
+ambiguous(1) = 8
+ambiguous(2) = 12
+ambiguous(3) = 24
+ambiguous(4) = 60
+ambiguous(5) = 180
+ambiguous(6) = 488
+ambiguous(7) = 1132
+ambiguous(8) = 2304
+ambiguous(9) = 4240
+ambiguous(10) = 7220
+ambiguous(11) = 11568
+ambiguous(12) = 17652
+ambiguous(13) = 25884
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of loop2(n):
+loop2(n) = 2 + 17.0667n + (-26.6667)n^2 + 14.6667n^3 + (-3.33333)n^4 + 0.266667n^5
+
+loop2(0) = 2
+loop2(1) = 4
+loop2(2) = 2
+loop2(3) = 4
+loop2(4) = 2
+loop2(5) = 4
+loop2(6) = 66
+loop2(7) = 324
+loop2(8) = 1026
+loop2(9) = 2564
+loop2(10) = 5506
+loop2(11) = 10628
+loop2(12) = 18946
+loop2(13) = 31748
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of loop3(n):
+loop3(n) = 1 + (-5.85)n + 13.125n^2 + (-8)n^3 + 1.875n^4 + (-0.15)n^5
+
+loop3(0) = 1
+loop3(1) = 2
+loop3(2) = 3
+loop3(3) = 1
+loop3(4) = 2
+loop3(5) = 3
+loop3(6) = -26
+loop3(7) = -160
+loop3(8) = -537
+loop3(9) = -1376
+loop3(10) = -2995
+loop3(11) = -5829
+loop3(12) = -10448
+loop3(13) = -17575
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of loop4(n):
+loop4(n) = 2 + 22.5429n + (-44.3056)n^2 + 35.0389n^3 + (-13.8889)n^4 + 2.90556n^5 + (-0.305556)n^6 + 0.0126984n^7
+
+loop4(0) = 2
+loop4(1) = 4
+loop4(2) = 3
+loop4(3) = 3
+loop4(4) = 2
+loop4(5) = 4
+loop4(6) = 3
+loop4(7) = 3
+loop4(8) = 138
+loop4(9) = 956
+loop4(10) = 3931
+loop4(11) = 12267
+loop4(12) = 32058
+loop4(13) = 73868
+loop4(14) = 154795
+loop4(15) = 301083
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of plus(n):
+plus(n) = -4 + 9.83333n + (-4.91667)n^2 + 1.16667n^3 + (-0.0833333)n^4
+
+plus(1) = 2
+plus(2) = 4
+plus(3) = 6
+plus(4) = 10
+plus(5) = 16
+plus(6) = 22
+plus(7) = 24
+plus(8) = 16
+plus(9) = -10
+plus(10) = -64
+plus(11) = -158
+plus(12) = -306
+plus(13) = -524
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of minus(n):
+minus(n) = 28 + 3.91667n + (-9.29167)n^2 + 2.58333n^3 + (-0.208333)n^4
+
+minus(1) = 25
+minus(2) = 16
+minus(3) = 9
+minus(4) = 7
+minus(5) = 8
+minus(6) = 5
+minus(7) = -14
+minus(8) = -66
+minus(9) = -173
+minus(10) = -362
+minus(11) = -665
+minus(12) = -1119
+minus(13) = -1766
+minus(14) = -2653
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of mul(n):
+mul(n) = 1 + (-2.08333)n + 1.45833n^2 + (-0.416667)n^3 + 0.0416667n^4
+
+mul(0) = 1
+mul(1) = 0
+mul(2) = 2e-010
+mul(3) = 1.6e-009
+mul(4) = 6e-009
+mul(5) = 1
+mul(6) = 5
+mul(7) = 15
+mul(8) = 35
+mul(9) = 70
+mul(10) = 126
+mul(11) = 210
+mul(12) = 330
+
+===============================================================================
+
+-- Confidence Degree: 3 --
+
+The define of what(n):
+what(n) = -1 + n^3
+
+what(0) = -1
+what(1) = 0
+what(2) = 7
+what(3) = 26
+what(4) = 63
+what(5) = 124
+what(6) = 215
+what(7) = 342
+what(8) = 511
+what(9) = 728
+what(10) = 999
+what(11) = 1330
+what(12) = 1727
+what(13) = 2196
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of how(n):
+how(n) = 2 + (-3.41667)n + 1.20833n^2 + 2.20833n^3 + (-1.20833)n^4 + 0.208333n^5
+
+how(0) = 2
+how(1) = 1
+how(2) = 5
+how(3) = 15
+how(4) = 53
+how(5) = 187
+how(6) = 556
+how(7) = 1395
+how(8) = 3060
+how(9) = 6053
+how(10) = 11047
+how(11) = 18911
+how(12) = 30735
+how(13) = 47855
+
+===============================================================================
+
+-- Confidence Degree: 4 --
+
+The define of miss(n):
+miss(n) = n
+
+miss(1) = 1
+miss(2) = 2
+miss(3) = 3
+miss(4) = 4
+miss(5) = 5
+miss(6) = 6
+miss(7) = 7
+miss(8) = 8
+miss(9) = 9
+miss(10) = 10
+miss(11) = 11
+miss(12) = 12
+miss(13) = 13
+miss(14) = 14
+miss(15) = 15
+miss(16) = 16
+miss(17) = 17
+
+===============================================================================
+
+-- Confidence Degree: 1 --
+
+The define of wrong(n):
+wrong(n) = 1000 + (-2592.86)n + 2606.56n^2 + (-1343.06)n^3 + 388.889n^4 + (-63.8889)n^5 + 5.55556n^6 + (-0.198413)n^7
+
+wrong(0) = 1000
+wrong(1) = 1
+wrong(2) = 4
+wrong(3) = 9
+wrong(4) = 16
+wrong(5) = 25
+wrong(6) = 36
+wrong(7) = 49
+wrong(8) = -936
+wrong(9) = -7919
+wrong(10) = -35900
+wrong(11) = -119879
+wrong(12) = -329856
+wrong(13) = -791831
+wrong(14) = -1.7158e+006
+wrong(15) = -3.43177e+006
+
+===============================================================================
+

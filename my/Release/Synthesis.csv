@@ -1,0 +1,340 @@
+-- Confidence Degree: 3 --
+
+The define of odd(n):
+odd(n) = odd(n-1) + temp59(n), odd(0) = 12
+temp59(n) = 22
+
+odd(0) = 12
+odd(1) = 34
+odd(2) = 56
+odd(3) = 78
+odd(4) = 100
+odd(5) = 122
+odd(6) = 144
+odd(7) = 166
+odd(8) = 188
+odd(9) = 210
+odd(10) = 232
+odd(11) = 254
+
+===============================================================================
+
+-- Confidence Degree: 4 --
+
+The define of quadratics(n):
+quadratics(n) = quadratics(n-1) + temp7193(n), quadratics(0) = 2
+temp7193(n) = temp7193(n-1) + temp7194(n), temp7193(1) = 3
+temp7194(n) = 2
+
+quadratics(0) = 2
+quadratics(1) = 5
+quadratics(2) = 10
+quadratics(3) = 17
+quadratics(4) = 26
+quadratics(5) = 37
+quadratics(6) = 50
+quadratics(7) = 65
+quadratics(8) = 82
+quadratics(9) = 101
+quadratics(10) = 122
+quadratics(11) = 145
+quadratics(12) = 170
+quadratics(13) = 197
+quadratics(14) = 226
+
+===============================================================================
+
+-- Confidence Degree: 4 --
+
+The define of mixed(n):
+mixed(n) = mixed(n-2) + temp147516(n), mixed(1) = 1, mixed(2) = 3
+temp147516(n) = temp147516(n-2) + temp147517(n), temp147516(3) = 2, temp147516(4) = 2
+temp147517(n) = 2
+
+mixed(1) = 1
+mixed(2) = 3
+mixed(3) = 3
+mixed(4) = 5
+mixed(5) = 7
+mixed(6) = 9
+mixed(7) = 13
+mixed(8) = 15
+mixed(9) = 21
+mixed(10) = 23
+mixed(11) = 31
+mixed(12) = 33
+mixed(13) = 43
+mixed(14) = 45
+mixed(15) = 57
+mixed(16) = 59
+
+===============================================================================
+
+-- Confidence Degree: 3 --
+
+The define of secondary(n):
+secondary(n) = secondary(n-1) + temp586905(n), secondary(1) = 4
+temp586905(n) = temp586905(n-1) * temp586906(n), temp586905(2) = 2
+temp586906(n) = 2
+
+secondary(1) = 4
+secondary(2) = 6
+secondary(3) = 10
+secondary(4) = 18
+secondary(5) = 34
+secondary(6) = 66
+secondary(7) = 130
+secondary(8) = 258
+secondary(9) = 514
+secondary(10) = 1026
+secondary(11) = 2050
+secondary(12) = 4098
+secondary(13) = 8194
+
+===============================================================================
+
+-- Confidence Degree: 3 --
+
+The define of ambiguous(n):
+ambiguous(n) = ambiguous(n-1) * temp610995(n), ambiguous(1) = 8
+temp610995(n) = temp610995(n-1) + temp610996(n), temp610995(2) = 1.5
+temp610996(n) = 0.5
+
+ambiguous(1) = 8
+ambiguous(2) = 12
+ambiguous(3) = 24
+ambiguous(4) = 60
+ambiguous(5) = 180
+ambiguous(6) = 630
+ambiguous(7) = 2520
+ambiguous(8) = 11340
+ambiguous(9) = 56700
+ambiguous(10) = 311850
+ambiguous(11) = 1.8711e+006
+ambiguous(12) = 1.21622e+007
+ambiguous(13) = 8.51351e+007
+
+===============================================================================
+
+-- Confidence Degree: 5 --
+
+The define of loop2(n):
+loop2(n) = temp644961(n) - loop2(n-1), loop2(0) = 2
+temp644961(n) = 6
+
+loop2(0) = 2
+loop2(1) = 4
+loop2(2) = 2
+loop2(3) = 4
+loop2(4) = 2
+loop2(5) = 4
+loop2(6) = 2
+loop2(7) = 4
+loop2(8) = 2
+loop2(9) = 4
+loop2(10) = 2
+loop2(11) = 4
+loop2(12) = 2
+loop2(13) = 4
+
+===============================================================================
+
+-- Confidence Degree: 4 --
+
+The define of loop3(n):
+loop3(n) = temp652503(n) - (loop3(n-2) + loop3(n-1)), loop3(0) = 1, loop3(1) = 2
+temp652503(n) = 6
+
+loop3(0) = 1
+loop3(1) = 2
+loop3(2) = 3
+loop3(3) = 1
+loop3(4) = 2
+loop3(5) = 3
+loop3(6) = 1
+loop3(7) = 2
+loop3(8) = 3
+loop3(9) = 1
+loop3(10) = 2
+loop3(11) = 3
+loop3(12) = 1
+loop3(13) = 2
+
+===============================================================================
+
+-- Confidence Degree: 5 --
+
+The define of loop4(n):
+loop4(n) = temp668576(n) - loop4(n-2), loop4(0) = 2, loop4(1) = 4
+temp668576(n) = temp668577(n) - temp668576(n-1), temp668576(2) = 5
+temp668577(n) = 12
+
+loop4(0) = 2
+loop4(1) = 4
+loop4(2) = 3
+loop4(3) = 3
+loop4(4) = 2
+loop4(5) = 4
+loop4(6) = 3
+loop4(7) = 3
+loop4(8) = 2
+loop4(9) = 4
+loop4(10) = 3
+loop4(11) = 3
+loop4(12) = 2
+loop4(13) = 4
+loop4(14) = 3
+loop4(15) = 3
+
+===============================================================================
+
+-- Confidence Degree: 3 --
+
+The define of plus(n):
+plus(n) = plus(n-2) + plus(n-1), plus(1) = 2, plus(2) = 4
+
+plus(1) = 2
+plus(2) = 4
+plus(3) = 6
+plus(4) = 10
+plus(5) = 16
+plus(6) = 26
+plus(7) = 42
+plus(8) = 68
+plus(9) = 110
+plus(10) = 178
+plus(11) = 288
+plus(12) = 466
+plus(13) = 754
+
+===============================================================================
+
+-- Confidence Degree: 3 --
+
+The define of minus(n):
+minus(n) = minus(n-2) - minus(n-1), minus(1) = 25, minus(2) = 16
+
+minus(1) = 25
+minus(2) = 16
+minus(3) = 9
+minus(4) = 7
+minus(5) = 2
+minus(6) = 5
+minus(7) = -3
+minus(8) = 8
+minus(9) = -11
+minus(10) = 19
+minus(11) = -30
+minus(12) = 49
+minus(13) = -79
+minus(14) = 128
+
+===============================================================================
+
+-- Confidence Degree: 3 --
+
+The define of mul(n):
+mul(n) = mul(n-2) * mul(n-1), mul(0) = 1, mul(1) = 0
+
+mul(0) = 1
+mul(1) = 0
+mul(2) = 0
+mul(3) = 0
+mul(4) = 0
+mul(5) = 0
+mul(6) = 0
+mul(7) = 0
+mul(8) = 0
+mul(9) = 0
+mul(10) = 0
+mul(11) = 0
+mul(12) = 0
+
+===============================================================================
+
+-- Confidence Degree: 3 --
+
+The define of what(n):
+what(n) = what(n-1) + temp795098(n), what(0) = -1
+temp795098(n) = temp795098(n-1) + temp795099(n), temp795098(1) = 1
+temp795099(n) = temp795099(n-1) + temp795100(n), temp795099(2) = 6
+temp795100(n) = 6
+
+what(0) = -1
+what(1) = 0
+what(2) = 7
+what(3) = 26
+what(4) = 63
+what(5) = 124
+what(6) = 215
+what(7) = 342
+what(8) = 511
+what(9) = 728
+what(10) = 999
+what(11) = 1330
+what(12) = 1727
+what(13) = 2196
+
+===============================================================================
+
+-- Confidence Degree: 4 --
+
+The define of how(n):
+how(n) = how(n-2) * temp829774(n) + how(n-1) * temp829773(n) + temp829775(n), how(0) = 2, how(1) = 1
+temp829774(n) = 2
+temp829773(n) = 3
+temp829775(n) = -2
+
+how(0) = 2
+how(1) = 1
+how(2) = 5
+how(3) = 15
+how(4) = 53
+how(5) = 187
+how(6) = 665
+how(7) = 2367
+how(8) = 8429
+how(9) = 30019
+how(10) = 106913
+how(11) = 380775
+how(12) = 1.35615e+006
+how(13) = 4.83e+006
+
+===============================================================================
+
+-- Confidence Degree: 0 --
+
+No result!
+
+===============================================================================
+
+-- Confidence Degree: 2 --
+
+The define of wrong(n):
+wrong(n) = wrong(n-2) * (wrong(n-1) - temp2406232(n)) + temp2406233(n), wrong(0) = 1000, wrong(1) = 1
+temp2406232(n) = 1
+temp2406233(n) = temp2406233(n-1) + temp2406234(n), temp2406233(2) = 4
+temp2406234(n) = temp2406234(n-1) + temp2406235(n), temp2406234(3) = 2
+temp2406235(n) = temp2406235(n-1) + temp2406236(n), temp2406235(4) = -24
+temp2406236(n) = temp2406236(n-1) + temp2406237(n), temp2406236(5) = -48
+temp2406237(n) = -24
+
+wrong(0) = 1000
+wrong(1) = 1
+wrong(2) = 4
+wrong(3) = 9
+wrong(4) = 16
+wrong(5) = 25
+wrong(6) = 36
+wrong(7) = 49
+wrong(8) = 64
+wrong(9) = 81
+wrong(10) = 100
+wrong(11) = 121
+wrong(12) = 144
+wrong(13) = 169
+wrong(14) = 196
+wrong(15) = 225
+
+===============================================================================
+
